@@ -1,0 +1,32 @@
+## sweup-annotations (Annotations) scratchdoc
+### Annotations
+- `ci`
+  - `@NoReturn`
+- `fi`
+  - `@NoReturn`
+- `ri`
+  - `@NoReturn`
+- `i++`
+  - `@NoReturn`
+- `i--`
+  - `@NoReturn`
+- `i(int v)`
+  - `@NoReturn`
+- `@Symbol i`
+  - `@Return int`
+- `@Deprecated xcompare(num v, num c, num t)`
+  - `@Return num`
+- `@Deprecated xnocompare(num v, num c, num t)`
+  - `@Return num`
+- `.exists(* v)`
+  - `@Return bool`
+- `.isNull(* v)`
+  - `@Return bool`
+- `.logic`
+  - `@Return *`
+- `.nullable(* v, *n)`
+  - `@Return *`
+- `@Deprecated @Cast String->bool(<bool>String boolean)`
+  - `@Return bool`
+- `@Extend .flag(Flag flag)`
+  - `@Return bool`
