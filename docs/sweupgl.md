@@ -1,0 +1,31 @@
+## sweup-gl (ScratchGL) scratchdoc
+### Functions
+- `tri(num x1, num y1, num x2, num y2, num x3, num y3, Flag flag, Hex color)`
+  - `@Flag TRI_INVERT`
+- `trites(num x1, num y1, num x2, num y2, Flag flag, Hex color)`
+  - `@Flag TRI_INVERT`
+- `triuv(num u1, num v1, num u2, num v2, num u3, num v3, Flag flag, Hex color)`
+  - `@Flag TRI_INVERT`
+  - `@Flag TRI_FLIP`
+- `image(Base64 uri, num x, num y, num sx, num sy, num s, Flag flag)`
+- `image(Costume c, **)`
+- `text(num x, num y, String text, num size, Font font, Flag flag, Hex color, bool adjust)`
+  - `@Flag TEXT_LEFT`
+  - `@Flag TEXT_RIGHT`
+- `rect(num x, num y, num w, num h, Flag flag, Hex color)`
+  - `@Flag RECT_OFFSET`
+- `line(num x1, num y1, num x2, num y2, num w, Flag flag, Hex color)`
+- `out(num x, num y, num w, num h, num wi, Flag flag, Hex color)`
+### Annotations
+- `@Cast screen->uv(num n, bool isY)`
+  - `@Return num`
+- `@Cast uv->screen(num n, bool isY)`
+  - `@Return num`
+- `@Deprecated mask(num ix, num v)`
+  - `@Return 1`
+- `col2r(num x1, num y1, num x2, num y2, num cx, num cy, bool x)`
+  - `@Return bool`
+- `flag(String head, Flag flag, FlagValue value)`
+  - `@Return FlagValue`
+  - `@Return null`
+  - `@NoReturn`
